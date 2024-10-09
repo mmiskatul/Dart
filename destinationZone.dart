@@ -1,15 +1,16 @@
 void main() {
   String value = 'XYZ';
   double weight = 5;
+  double cost = 0;
   switch (value) {
     case 'XYZ':
-      print('the shipping cost is :\$${weight * 5}');
+      cost = (weight * 5);
     case 'ABC':
-      print("the shipping cost is :\$${weight * 7}");
+      cost = (weight * 7);
     case 'PQR':
-      print("the shipping cost is \$${weight * 10}");
-    default :
+      cost = (weight * 10);
+    default:
       print("wrong Destination ");
-    
   }
+  print("Biliing Cost is :$cost");
 }
