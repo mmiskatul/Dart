@@ -11,6 +11,7 @@ void main() {
       cost = (weight * 10);
     default:
       print("wrong Destination ");
+      return;
   }
   print("Biliing Cost is :$cost");
 }
