@@ -4,6 +4,9 @@ void main() {
 }
 
 class Constants {
- static String greeting = 'Hello,Welcome';
+  static String greeting = 'Hello,Welcome';
   static String bye = 'bye';
+  static void pritValue() {
+    print(greeting);
+  }
 }
